@@ -9,8 +9,6 @@ p {
     font-size: 20px;
 }
 
-
-
 h1 {
     text-align:center;
     color:darkblue;
@@ -18,8 +16,27 @@ h1 {
     font-size: 40px;
 }
 
-img {
+.buzzy-hat {
+    margin-top: 20px;
     width: 350px;
     height: 300px;
+    display: block;
     object-fit: cover;
 }
+
+.buzzy-icon {
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+.buzzy-rocket {
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
