@@ -1,26 +1,28 @@
 
 
 body {
-    background-color: aquamarine;
+    background-color: #E2F0FF;
     margin: 0;
-    font-family: sans-serif;
 }
 
 h1 {
     text-align: center;
     color: darkblue;
     font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
     text-align: center;
     color: darkblue;
+    font-family: 'Montserrat';
 }
 
 p {
     text-align: center;
     color: darkblue;
     font-size: 20px;
+    font-family: 'DM Sans';
 }
 
 .picture-container {
@@ -49,4 +51,21 @@ p {
 
 .picture-card p {
     margin-top: 12px;
+}
+
+.picture-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.picture-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
 }
