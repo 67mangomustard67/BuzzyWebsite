@@ -1,4 +1,5 @@
 
+
 body {
     background-color: aquamarine;
     margin: 0;
@@ -25,7 +26,22 @@ p {
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 20px;
+    width: 100%;
 }
-.description {
-    margin-top: 30px;
+
+.picture-card {
+    width: 350px;
+    flex: 0 0 350px;
+    text-align: center;
+}
+
+.picture-card img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.picture-card p {
+    margin-top: 12px;
 }
