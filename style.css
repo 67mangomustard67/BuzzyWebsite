@@ -12,6 +12,11 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
 p {
     text-align: center;
     color: darkblue;
